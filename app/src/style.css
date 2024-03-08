@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.login {
+    width: 55%;
+    display: flexbox;
+}
+
+.image {
+    width: 45%;
+    background-image: url(assets/estoque.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#logo {
+    border-radius: 20px;
+    width: 10.2vw;
+    height: 10.2vw;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 5.5vh;
+    margin-left: 5.5vh;
+}
+
+.name {
+    font-size: 3.8vw;
+    margin-left: 20px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+#password {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#email {
+    margin-top: 46px;
+}
+
+#password,
+#email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 127px;
+    margin-right: 186px;
+}
+
+input {
+    height: 60px;
+    border: solid 2px;
+    border-radius: 6px;
+    width: 27.1vw;
+    /* max-width: 385px;
+    min-width: 100px; */
+}
+
+input::placeholder {
+    color: #A6A2A2;
+    padding: 20px;
+}
+
+input:focus {
+    color: #A6A2A2;
+    padding: 20px;
+}
+
+#esqueciSenha {
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+    text-decoration: none;
+    margin-left: 127px;
+    margin-right: 186px;
+
+}
+
+
+h1,
+h2 {
+    margin-left: 127px;
+}
+
+h2 {
+    width: 27.1vw;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 35px;
+}
+
+button {
+    /* width: 385px; */
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #032D23;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    width: 27.1vw;
+    margin-left: 127px;
+    margin-right: 186px;
+    letter-spacing: -0.33px;
+}
+
+#criarConta {
+    margin-right: 186px;
+    margin-left: 120px;
+}
