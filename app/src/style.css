@@ -11,6 +11,7 @@
 
 .container {
     width: 100%;
+    height: 100vh;
     display: flex;
 }
 
@@ -133,3 +134,37 @@ button {
     margin-right: 186px;
     margin-left: 120px;
 }
+/* 
+@media (min-width: 320px) {
+
+    .login {
+        background-color: red;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .login {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .login {
+        background-color: rgba(209, 8, 8, 0.438);
+    }
+} */
+
+@media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Estilos para telas de largura menor ou igual a 600 pixels */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
