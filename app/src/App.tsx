@@ -1,14 +1,12 @@
 import './style.css'
-import Logo from './assets/logo (2).jpg'
+import Logo from './assets/logo (2).png'
 
 function App() {
 
   return (
     <div className="container">
       <div className="login">
-        <div className="logo">
-          <img src={Logo} alt="Logo da empresa" id='logo' /> <span className='name' >StockPro</span>
-        </div>
+        <img src={Logo} alt="Logo da empresa" id='logo' />
         <h2>Bem-vindo(a) ao Stock Pro</h2>
         <h1>Login</h1>
 
@@ -24,7 +22,7 @@ function App() {
       </div>
 
       <div className="image">
-      
+
       </div>
 
     </div>

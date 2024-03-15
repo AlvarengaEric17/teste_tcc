@@ -22,7 +22,7 @@
 
 .image {
     width: 45%;
-    background-image: url(assets/estoque.jpg);
+    background-image: url(assets/fundo.jpg);
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -30,23 +30,14 @@
 
 #logo {
     border-radius: 20px;
-    width: 10.2vw;
-    height: 10.2vw;
-    max-width: 50px;
-    max-height: 50px;
+    margin-left: 127px;
+    width: 600px;
+    height: 400px;
+    max-width: 385px;
+    max-height: 300px;
+
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    margin-top: 5.5vh;
-    margin-left: 5.5vh;
-}
-
-.name {
-    font-size: 3.8vw;
-    margin-left: 20px;
-}
 
 .forms {
     display: flex;
@@ -134,6 +125,7 @@ button {
     margin-right: 186px;
     margin-left: 120px;
 }
+
 /* 
 @media (min-width: 320px) {
 
@@ -156,15 +148,15 @@ button {
     }
 } */
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     body {
       background-color: lightblue;
     }
   }
   
   /* Estilos para telas de largura menor ou igual a 600 pixels */
-  @media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     body {
       background-color: lightgreen;
     }
-  }
+  } */
