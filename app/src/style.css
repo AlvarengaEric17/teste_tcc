@@ -67,13 +67,17 @@ input {
     border: solid 2px;
     border-radius: 6px;
     width: 27.1vw;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: -20px;
     /* max-width: 385px;
     min-width: 100px; */
 }
 
 input::placeholder {
     color: #A6A2A2;
-    padding: 20px;
+
+
 }
 
 input:focus {
@@ -81,7 +85,8 @@ input:focus {
     padding: 20px;
 }
 
-#esqueciSenha {
+#esqueciSenha,
+#criarConta {
     /* display: flex; */
     /* flex-direction: column;
     align-items: center; */
@@ -91,7 +96,6 @@ input:focus {
 
 }
 
-
 h1,
 h2 {
     margin-left: 127px;
@@ -99,11 +103,13 @@ h2 {
 
 h2 {
     width: 27.1vw;
-    margin-top: 30px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 h1 {
-    margin-top: 35px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 button {
@@ -111,19 +117,34 @@ button {
     height: 64px;
     flex-shrink: 0;
     border-radius: 6px;
-    background: #032D23;
+    background-color: #009C86;
+    border: solid 1px #009C86;
     color: #FFF;
+    font-weight: bold;
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 20px;
     width: 27.1vw;
+    margin-top: 20px;
     margin-left: 127px;
     margin-right: 186px;
     letter-spacing: -0.33px;
+    transition: 3s;
+}
+
+button:hover {
+    background-color: #7FF1E7;
+    border: solid 1px #7FF1E7;
+    color: #FFF;
 }
 
 #criarConta {
-    margin-right: 186px;
-    margin-left: 120px;
+    margin-left: 65px;
+
+}
+
+.logar {
+    display: flex;
+    flex-direction: row;
 }
 
 /* 

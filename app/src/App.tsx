@@ -16,7 +16,12 @@ function App() {
 
           <input type="password" id="password" placeholder='Senha' />
         </div>
-        <a id='esqueciSenha' href="#">Esqueci minha senha <span id='criarConta'>Criar conta</span> </a>
+
+        <div className="logar">
+          <a id='esqueciSenha' href="#">Esqueci minha senha </a>
+          <a id='criarConta' href='#'>Criar conta</a>
+        </div>
+
 
         <button type='submit'>Login</button>
       </div>
@@ -24,8 +29,9 @@ function App() {
       <div className="image">
 
       </div>
-
     </div>
+
+
   )
 }
 
