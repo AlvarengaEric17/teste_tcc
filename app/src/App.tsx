@@ -15,7 +15,7 @@ function App() {
 
             <input type="email" required placeholder='Email' id='email' />
 
-            <input type="password" id="password" placeholder='Senha' />
+            <input type="password" required id="password" placeholder='Senha' />
           </div>
 
           <div className="logar">
