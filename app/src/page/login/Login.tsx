@@ -3,6 +3,10 @@ import Logo from '../../assets/logoteste.png'
 
 function Login() {
 
+    function enviar(){
+        alert("login efetuado com sucesso!")
+    }
+
     return (
         <div className="container">
             <div className="login">
@@ -24,7 +28,7 @@ function Login() {
                     </div>
 
 
-                    <button type='submit'>Login</button>
+                    <button onClick={enviar} type='submit'>Login</button>
                 </div>
             </div>
 
