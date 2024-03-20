@@ -1,7 +1,7 @@
 import './style.css'
 import Logo from '../../assets/logoteste.png'
 
-function Login() {
+function Register() {
 
     function enviar(){
         alert("login efetuado com sucesso!")
@@ -12,7 +12,7 @@ function Login() {
             <div className="login">
                 <div className="card">
                     <img src={Logo} alt="Logo da empresa" id='logo' className='logo' />
-                    <h2>Bem-vindo(a) ao Stock Pro</h2>
+                    <h2>Cadastro</h2>
                     <h1>Login</h1>
 
                     <div className='forms'>
@@ -23,7 +23,7 @@ function Login() {
                     </div>
 
                     <div className="logar">
-                        <a id='esqueciSenha' href="#">Esqueci minha senha </a>
+                        <a id='esqueciSenha' href="/">Esqueci minha senha </a>
                         <a id='criarConta' href='#'>Criar conta</a>
                     </div>
 
@@ -41,4 +41,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Register
