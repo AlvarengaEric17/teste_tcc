@@ -3,7 +3,7 @@ import Logo from '../../assets/logoteste.png'
 
 function Register() {
 
-    function enviar(){
+    function enviar() {
         alert("login efetuado com sucesso!")
     }
 
@@ -17,14 +17,16 @@ function Register() {
 
                     <div className='forms'>
 
+                        <input type="text" required placeholder='Nome' id='nome' />
+
                         <input type="email" required placeholder='Email' id='email' />
 
                         <input type="password" required id="password" placeholder='Senha' />
                     </div>
 
                     <div className="logar">
-                        <a id='esqueciSenha' href="/">Esqueci minha senha </a>
-                        <a id='criarConta' href='#'>Criar conta</a>
+                        <a id='Login' href="/">Login </a>
+                        
                     </div>
 
 

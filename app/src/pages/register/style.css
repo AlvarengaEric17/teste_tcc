@@ -126,7 +126,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     width: 27.1vw;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
