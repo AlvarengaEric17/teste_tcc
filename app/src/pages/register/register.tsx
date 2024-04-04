@@ -25,7 +25,7 @@ function Register() {
                     </div>
 
                     <div className="loginHome">
-                        <a id='login' href="/">Login </a>                       
+                        <a id='login' href="/">Voltar para página de Login </a>                       
                     </div>
 
 
