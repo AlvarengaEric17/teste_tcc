@@ -53,7 +53,7 @@
     width: 27.1vw;
     display: flex;
     flex-direction: row;
-    justify-content: leftsave;
+    justify-content: left;
 }
 
 
@@ -85,7 +85,7 @@ input:focus {
 }
 
 #login:hover {
-    transform: translateY(+10px);
+    text-decoration: underline;
 }
 
 h2 {
@@ -113,7 +113,8 @@ button {
     width: 27.1vw;
     margin-top: 20px;
     letter-spacing: -0.33px;
-    transition: 3s;
+    transition: 1s;
+    cursor: pointer;
 }
 
 button:hover {
@@ -207,6 +208,13 @@ button:hover {
         align-items: center;
     }
 
+    .loginHome {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 300px;
+    }
+
     /* .logar {
         width: 300px;
         display: flex;
@@ -230,6 +238,12 @@ button:hover {
     .container {
         padding: 0;
         display: flex;
+    }
+
+    .loginHome {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
     }
 
     .login {

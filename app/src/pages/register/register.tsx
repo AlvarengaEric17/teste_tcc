@@ -4,7 +4,7 @@ import Logo from '../../assets/logoteste.png'
 function Register() {
 
     function enviar() {
-        alert("login efetuado com sucesso!")
+        alert("Cadastro efetuado com sucesso!")
     }
 
     return (
