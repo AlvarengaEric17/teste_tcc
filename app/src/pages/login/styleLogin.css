@@ -45,6 +45,15 @@
     align-items: center;
 }
 
+.logar {
+    width: 385px;
+    display: flex;
+    flex-direction: row;
+    width: 27.1vw;
+    justify-content: space-between;
+
+}
+
 input {
     height: 45px;
     border: solid 2px;
@@ -121,14 +130,14 @@ button:hover {
     color: #FFF;
 }
 
-.logar {
+/* .logar {
     width: 385px;
     display: flex;
     flex-direction: row;
     width: 27.1vw;
-    justify-content: center;
+    justify-content: space-between;
 
-}
+} */
 
 
 @media (max-width: 767px) {
@@ -216,13 +225,13 @@ button:hover {
         align-items: center;
     }
 
-    .logar {
+    /* .logar {
         width: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
-    }
+    } */
 
     h2,
     h1 {

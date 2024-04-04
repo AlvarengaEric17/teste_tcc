@@ -35,7 +35,11 @@
 }
 
 #email {
-    margin-top: 35px;
+    margin-top: 20px;
+}
+
+#name {
+    margin-top: 20px;
 }
 
 #password,
@@ -44,6 +48,15 @@
     flex-direction: column;
     align-items: center;
 }
+
+.loginHome {
+    width: 27.1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 
 input {
     height: 45px;
@@ -64,26 +77,15 @@ input:focus {
     padding: 20px;
 }
 
-#esqueciSenha {
+
+#login {
     text-decoration: none;
     font-size: 15px;
     color: #009C86;
     transition: all 0.3s ease;
 }
 
-#criarConta {
-    text-decoration: none;
-    font-size: 15px;
-    color: #009C86;
-    transition: all 0.3s ease;
-
-}
-
-#criarConta:hover {
-    transform: translateY(+10px);
-}
-
-#esqueciSenha:hover {
+#login:hover {
     transform: translateY(+10px);
 }
 
@@ -121,22 +123,12 @@ button:hover {
     color: #FFF;
 }
 
-.logar {
-    width: 385px;
-    display: flex;
-    flex-direction: row;
-    width: 27.1vw;
-    justify-content: space-between;
-
-}
-
-
 @media (max-width: 767px) {
 
     .container {
         width: 100%;
         background-image: url(../../assets/fundo.jpg);
-    
+
         background-size: cover;
         background-position: center;
         display: flex;
@@ -216,13 +208,14 @@ button:hover {
         align-items: center;
     }
 
-    .logar {
+    /* .logar {
         width: 300px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-
+        justify-content: center;
     }
+     */
+
 
     h2,
     h1 {
@@ -277,6 +270,7 @@ button:hover {
 
     .logo {
         border-radius: 20px;
+        max-width: 27.1vw;
         width: 80%;
         /* width: 40.1vw;
         height: 55.3vh;

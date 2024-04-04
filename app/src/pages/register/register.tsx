@@ -1,4 +1,4 @@
-import './style.css'
+import './styleRegister.css'
 import Logo from '../../assets/logoteste.png'
 
 function Register() {
@@ -12,8 +12,8 @@ function Register() {
             <div className="login">
                 <div className="card">
                     <img src={Logo} alt="Logo da empresa" id='logo' className='logo' />
-                    <h2>Cadastro</h2>
-                    <h1>Login</h1>
+                    <h2>Bem-vindo(a) ao Stock Pro</h2>
+                    <h1>Cadastro</h1>
 
                     <div className='forms'>
 
@@ -24,13 +24,12 @@ function Register() {
                         <input type="password" required id="password" placeholder='Senha' />
                     </div>
 
-                    <div className="logar">
-                        <a id='Login' href="/">Login </a>
-                        
+                    <div className="loginHome">
+                        <a id='login' href="/">Login </a>                       
                     </div>
 
 
-                    <button onClick={enviar} type='submit'>Login</button>
+                    <button onClick={enviar} type='submit'>Cadastrar-se</button>
                 </div>
             </div>
 

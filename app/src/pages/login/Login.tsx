@@ -1,4 +1,4 @@
-import './style.css'
+import './styleLogin.css'
 import Logo from '../../assets/logoteste.png'
 
 function Login() {
